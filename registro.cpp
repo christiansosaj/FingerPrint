@@ -17,7 +17,7 @@ void Registro::on_GuardarBtn_clicked()
 {
 
 }
-
+// boton cancelarG
 void Registro::on_CancelarRbtn_clicked()
 {
     close();
