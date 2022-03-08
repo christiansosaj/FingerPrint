@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>103776_information_user_half_icon.png</file>
+        <file>401309_qt_icon.png</file>
+        <file>1564535_customer_user_userphoto_account_person_icon.png</file>
+        <file>2538727_biometric_finger_fingerprint_identity_icon.png</file>
+        <file>3669427_fingerprint_ic_icon.png</file>
+        <file>4017680_finger_fingerprint_recognition_scan_scanning_icon.png</file>
+        <file>4104746_digital wallet_e-wallet_fingerprint_lock screen_mobile banking_icon.png</file>
+        <file>imagen.jpg</file>
+    </qresource>
+</RCC>

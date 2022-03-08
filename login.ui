@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Login</class>
+ <widget class="QMainWindow" name="Login">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>789</width>
+    <height>752</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Acceder</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="Iconos.qrc">
+    <normaloff>:/1564535_customer_user_userphoto_account_person_icon.png</normaloff>:/1564535_customer_user_userphoto_account_person_icon.png</iconset>
+  </property>
+  <property name="iconSize">
+   <size>
+    <width>30</width>
+    <height>30</height>
+   </size>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:reflect, x1:0.585, y1:0.455, x2:0.545, y2:0.511, stop:0.318182 rgba(134, 0, 0, 255), stop:0.931818 rgba(56, 0, 0, 255));</string>
+   </property>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>120</y>
+      <width>671</width>
+      <height>561</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> QFrame
+{
+background:rgba(0,0,0,0.8);
+}
+*{
+font-family: century gothic;
+font-size:24px;
+border-radius: 55px;
+}
+
+
+
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="GuardarLBtn">
+     <property name="geometry">
+      <rect>
+       <x>380</x>
+       <y>490</y>
+       <width>221</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton
+{
+border-radius:20px;
+background:red;
+color: rgb(255, 255, 255);
+font: 16pt &quot;MS Shell Dlg 2&quot;;
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Guardar</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>50</y>
+       <width>111</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">*{
+	background-color: rgba(0,0,0,0);
+font-family: century gothic;
+font-size:25px;
+
+}
+QLabel
+{
+color: white
+
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Nombre:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>130</y>
+       <width>121</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">*{
+	background-color: rgba(0,0,0,0);
+font-family: century gothic;
+font-size:25px;
+
+}
+QLabel
+{
+color: white
+
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Apellidos:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>220</y>
+       <width>121</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">*{
+	background-color: rgba(0,0,0,0);
+font-family: century gothic;
+font-size:25px;
+
+}
+QLabel
+{
+color: white
+
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Facultad:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>310</y>
+       <width>111</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">*{
+	background-color: rgba(0,0,0,0);
+font-family: century gothic;
+font-size:25px;
+
+}
+QLabel
+{
+color: white
+
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Grupo:</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Huella1Btn">
+     <property name="geometry">
+      <rect>
+       <x>570</x>
+       <y>370</y>
+       <width>91</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+*{
+font-family: century gothic;
+font-size:24px;
+
+}
+QPushButton
+{
+border-radius:65px;
+background:red;
+background-color: rgb(255, 255, 255,0);
+}
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="Iconos.qrc">
+       <normaloff>:/2538727_biometric_finger_fingerprint_identity_icon.png</normaloff>:/2538727_biometric_finger_fingerprint_identity_icon.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>50</width>
+       <height>50</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>380</y>
+       <width>531</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">*{
+	background-color: rgba(0,0,0,0);
+font-family: century gothic;
+font-size:25px;
+
+}
+QLabel
+{
+color: white
+
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Precionar para ser buscado por el sistema:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_2">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>150</y>
+       <width>431</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255,0.5);</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>240</y>
+       <width>171</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255,0.5);</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>Seleccione</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>1</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>2</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>4</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>FTE</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>CITEC</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_3">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>70</y>
+       <width>431</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255,0.5);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_4">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>330</y>
+       <width>171</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255,0.5);</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="CancelarLBtn">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>490</y>
+       <width>221</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton
+{
+border-radius:20px;
+background:red;
+color: rgb(255, 255, 255);
+font: 16pt &quot;MS Shell Dlg 2&quot;;
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Cancelar</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>40</y>
+      <width>181</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">*{
+	background-color: rgba(0,0,0,0);
+font-family: century gothic;
+font-size:40px;
+
+}
+QLabel
+{
+color: white
+
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Acceder:</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>789</width>
+     <height>17</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="Iconos.qrc"/>
+ </resources>
+ <connections/>
+</ui>
