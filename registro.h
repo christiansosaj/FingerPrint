@@ -20,6 +20,8 @@ private slots:
 
     void on_CancelarRbtn_clicked();
 
+    void on_GuardarRBtn_clicked();
+
 private:
     Ui::Registro *ui;
 };
