@@ -12,13 +12,15 @@ Registro::~Registro()
 {
     delete ui;
 }
+// boton guarda
 
-void Registro::on_GuardarBtn_clicked()
-{
-
-}
 // boton cancelarG
 void Registro::on_CancelarRbtn_clicked()
 {
     close();
+}
+
+void Registro::on_GuardarRBtn_clicked()
+{
+
 }

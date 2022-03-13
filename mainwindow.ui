@@ -226,7 +226,7 @@ color: rgb(255, 255, 255);</string>
   <action name="actionContacto">
    <property name="icon">
     <iconset resource="Iconos.qrc">
-     <normaloff>:/401309_qt_icon.png</normaloff>:/401309_qt_icon.png</iconset>
+     <normaloff>:/103776_information_user_half_icon.png</normaloff>:/103776_information_user_half_icon.png</iconset>
    </property>
    <property name="text">
     <string>Contacto</string>

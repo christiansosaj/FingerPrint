@@ -57,29 +57,6 @@ border-radius: 55px;
     <property name="frameShadow">
      <enum>QFrame::Raised</enum>
     </property>
-    <widget class="QPushButton" name="GuardarLBtn">
-     <property name="geometry">
-      <rect>
-       <x>380</x>
-       <y>490</y>
-       <width>221</width>
-       <height>41</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">QPushButton
-{
-border-radius:20px;
-background:red;
-color: rgb(255, 255, 255);
-font: 16pt &quot;MS Shell Dlg 2&quot;;
-}
-</string>
-     </property>
-     <property name="text">
-      <string>Guardar</string>
-     </property>
-    </widget>
     <widget class="QLabel" name="label_3">
      <property name="geometry">
       <rect>
@@ -158,7 +135,7 @@ color: white
 </string>
      </property>
      <property name="text">
-      <string>Facultad:</string>
+      <string>Correo:</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_6">
@@ -185,7 +162,7 @@ color: white
 </string>
      </property>
      <property name="text">
-      <string>Grupo:</string>
+      <string>Teléfono:</string>
      </property>
     </widget>
     <widget class="QPushButton" name="Huella1Btn">
@@ -263,56 +240,8 @@ color: white
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: rgb(255, 255, 255,0.5);</string>
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
      </property>
-    </widget>
-    <widget class="QComboBox" name="comboBox">
-     <property name="geometry">
-      <rect>
-       <x>170</x>
-       <y>240</y>
-       <width>171</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: rgb(255, 255, 255,0.5);</string>
-     </property>
-     <item>
-      <property name="text">
-       <string>Seleccione</string>
-      </property>
-     </item>
-     <item>
-      <property name="text">
-       <string>1</string>
-      </property>
-     </item>
-     <item>
-      <property name="text">
-       <string>2</string>
-      </property>
-     </item>
-     <item>
-      <property name="text">
-       <string>3</string>
-      </property>
-     </item>
-     <item>
-      <property name="text">
-       <string>4</string>
-      </property>
-     </item>
-     <item>
-      <property name="text">
-       <string>FTE</string>
-      </property>
-     </item>
-     <item>
-      <property name="text">
-       <string>CITEC</string>
-      </property>
-     </item>
     </widget>
     <widget class="QLineEdit" name="lineEdit_3">
      <property name="geometry">
@@ -327,26 +256,13 @@ color: white
       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: rgb(255, 255, 255,0.5);</string>
-     </property>
-    </widget>
-    <widget class="QLineEdit" name="lineEdit_4">
-     <property name="geometry">
-      <rect>
-       <x>150</x>
-       <y>330</y>
-       <width>171</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: rgb(255, 255, 255,0.5);</string>
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
      </property>
     </widget>
     <widget class="QPushButton" name="CancelarLBtn">
      <property name="geometry">
       <rect>
-       <x>60</x>
+       <x>330</x>
        <y>490</y>
        <width>221</width>
        <height>41</height>
@@ -364,6 +280,32 @@ font: 16pt &quot;MS Shell Dlg 2&quot;;
      </property>
      <property name="text">
       <string>Cancelar</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_5">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>240</y>
+       <width>431</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_6">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>330</y>
+       <width>431</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
      </property>
     </widget>
    </widget>
