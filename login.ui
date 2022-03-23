@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>789</width>
-    <height>752</height>
+    <height>668</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -31,9 +31,9 @@
     <property name="geometry">
      <rect>
       <x>70</x>
-      <y>120</y>
+      <y>90</y>
       <width>671</width>
-      <height>561</height>
+      <height>531</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -230,19 +230,6 @@ color: white
       <string>Precionar para ser buscado por el sistema:</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="lineEdit_2">
-     <property name="geometry">
-      <rect>
-       <x>180</x>
-       <y>150</y>
-       <width>431</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: rgb(255, 255, 255);</string>
-     </property>
-    </widget>
     <widget class="QLineEdit" name="lineEdit_3">
      <property name="geometry">
       <rect>
@@ -256,14 +243,24 @@ color: white
       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: rgb(255, 255, 255);</string>
+      <string notr="true">color: rgb(255, 255, 255,0.6);
+
+background: rgb(255, 255, 255,0);
+border: none;
+border-bottom: 1px solid #717072;
+
+
+</string>
+     </property>
+     <property name="text">
+      <string>nombre</string>
      </property>
     </widget>
     <widget class="QPushButton" name="CancelarLBtn">
      <property name="geometry">
       <rect>
-       <x>330</x>
-       <y>490</y>
+       <x>240</x>
+       <y>460</y>
        <width>221</width>
        <height>41</height>
       </rect>
@@ -282,6 +279,32 @@ font: 16pt &quot;MS Shell Dlg 2&quot;;
       <string>Cancelar</string>
      </property>
     </widget>
+    <widget class="QLineEdit" name="lineEdit_4">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>150</y>
+       <width>431</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255,0.6);
+
+background: rgb(255, 255, 255,0);
+border: none;
+border-bottom: 1px solid #717072;
+
+
+</string>
+     </property>
+     <property name="text">
+      <string>apellidos</string>
+     </property>
+    </widget>
     <widget class="QLineEdit" name="lineEdit_5">
      <property name="geometry">
       <rect>
@@ -291,8 +314,21 @@ font: 16pt &quot;MS Shell Dlg 2&quot;;
        <height>31</height>
       </rect>
      </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
      <property name="styleSheet">
-      <string notr="true">background-color: rgb(255, 255, 255);</string>
+      <string notr="true">color: rgb(255, 255, 255,0.6);
+
+background: rgb(255, 255, 255,0);
+border: none;
+border-bottom: 1px solid #717072;
+
+
+</string>
+     </property>
+     <property name="text">
+      <string>usuario@dominio</string>
      </property>
     </widget>
     <widget class="QLineEdit" name="lineEdit_6">
@@ -304,16 +340,29 @@ font: 16pt &quot;MS Shell Dlg 2&quot;;
        <height>31</height>
       </rect>
      </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
      <property name="styleSheet">
-      <string notr="true">background-color: rgb(255, 255, 255);</string>
+      <string notr="true">color: rgb(255, 255, 255,0.6);
+
+background: rgb(255, 255, 255,0);
+border: none;
+border-bottom: 1px solid #717072;
+
+
+</string>
+     </property>
+     <property name="text">
+      <string>teléfono</string>
      </property>
     </widget>
    </widget>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>290</x>
-      <y>40</y>
+      <x>300</x>
+      <y>20</y>
       <width>181</width>
       <height>71</height>
      </rect>
@@ -343,11 +392,10 @@ color: white
      <x>0</x>
      <y>0</y>
      <width>789</width>
-     <height>17</height>
+     <height>21</height>
     </rect>
    </property>
   </widget>
-  <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources>
   <include location="Iconos.qrc"/>

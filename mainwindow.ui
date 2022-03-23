@@ -52,13 +52,6 @@ font-family: century gothic;
 font-size:24px;
 border-radius: 55px;
 }
-Qline
-{
-background: transparent;
-border: none;
-
-}
-
 
 </string>
     </property>
@@ -106,14 +99,18 @@ color: white
      </property>
      <property name="styleSheet">
       <string notr="true">QPushButton
-
-
 {
 border-radius:20px;
 background:red;
 
 color: rgb(255, 255, 255);
 font: 16pt &quot;MS Shell Dlg 2&quot;;
+}
+QPushButton:hover
+{
+	color: rgb(255, 255, 0);
+border-radius:20px;
+background-color: rgb(170, 0, 0);
 }
 </string>
      </property>
@@ -137,6 +134,13 @@ border-radius:20px;
 background:red;
 color: rgb(255, 255, 255);
 font: 16pt &quot;MS Shell Dlg 2&quot;;
+}
+
+QPushButton:hover
+{
+	color: rgb(255, 255, 0);
+border-radius:20px;
+background-color: rgb(170, 0, 0);
 }
 </string>
      </property>
@@ -188,7 +192,7 @@ background:red;
      <x>0</x>
      <y>0</y>
      <width>873</width>
-     <height>17</height>
+     <height>21</height>
     </rect>
    </property>
    <property name="autoFillBackground">
@@ -207,7 +211,6 @@ color: rgb(255, 255, 255);</string>
    </widget>
    <addaction name="menuAyuda"/>
   </widget>
-  <widget class="QStatusBar" name="statusbar"/>
   <action name="actionAcerca_de_QT">
    <property name="icon">
     <iconset resource="Iconos.qrc">
